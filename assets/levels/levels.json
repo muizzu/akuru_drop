@@ -4,15 +4,13 @@
     "objectiveType": "score",
     "targetScore": 1200,
     "moveLimit": 30,
-    "availableLetters": [
-      "haa",
-      "shaviyani",
-      "noonu",
-      "raa",
-      "baa",
-      "lhaviyani"
-    ],
+    "timeLimit": 0,
+    "dropItemCount": 0,
+    "letterTargets": {},
+    "availableLetters": ["haa", "shaviyani", "noonu", "raa", "baa", "lhaviyani"],
     "star1Score": 1200,
+    "star2Score": 0,
+    "star3Score": 0,
     "blockers": [],
     "dropItems": []
   },
@@ -21,15 +19,13 @@
     "objectiveType": "score",
     "targetScore": 1400,
     "moveLimit": 30,
-    "availableLetters": [
-      "haa",
-      "shaviyani",
-      "noonu",
-      "raa",
-      "baa",
-      "lhaviyani"
-    ],
+    "timeLimit": 0,
+    "dropItemCount": 0,
+    "letterTargets": {},
+    "availableLetters": ["haa", "shaviyani", "noonu", "raa", "baa", "lhaviyani"],
     "star1Score": 1400,
+    "star2Score": 0,
+    "star3Score": 0,
     "blockers": [],
     "dropItems": []
   },
@@ -38,15 +34,13 @@
     "objectiveType": "score",
     "targetScore": 1600,
     "moveLimit": 30,
-    "availableLetters": [
-      "haa",
-      "shaviyani",
-      "noonu",
-      "raa",
-      "baa",
-      "lhaviyani"
-    ],
+    "timeLimit": 0,
+    "dropItemCount": 0,
+    "letterTargets": {},
+    "availableLetters": ["haa", "shaviyani", "noonu", "raa", "baa", "lhaviyani"],
     "star1Score": 1600,
+    "star2Score": 0,
+    "star3Score": 0,
     "blockers": [],
     "dropItems": []
   },
@@ -55,15 +49,13 @@
     "objectiveType": "score",
     "targetScore": 1800,
     "moveLimit": 30,
-    "availableLetters": [
-      "haa",
-      "shaviyani",
-      "noonu",
-      "raa",
-      "baa",
-      "lhaviyani"
-    ],
+    "timeLimit": 0,
+    "dropItemCount": 0,
+    "letterTargets": {},
+    "availableLetters": ["haa", "shaviyani", "noonu", "raa", "baa", "lhaviyani"],
     "star1Score": 1800,
+    "star2Score": 0,
+    "star3Score": 0,
     "blockers": [],
     "dropItems": []
   },
@@ -72,297 +64,161 @@
     "objectiveType": "score",
     "targetScore": 2000,
     "moveLimit": 30,
-    "availableLetters": [
-      "haa",
-      "shaviyani",
-      "noonu",
-      "raa",
-      "baa",
-      "lhaviyani"
-    ],
+    "timeLimit": 0,
+    "dropItemCount": 0,
+    "letterTargets": {},
+    "availableLetters": ["haa", "shaviyani", "noonu", "raa", "baa", "lhaviyani"],
     "star1Score": 2000,
+    "star2Score": 0,
+    "star3Score": 0,
     "blockers": [],
     "dropItems": []
   },
   {
     "levelNumber": 6,
     "objectiveType": "score",
-    "targetScore": 2000,
+    "targetScore": 2200,
     "moveLimit": 28,
-    "availableLetters": [
-      "haa",
-      "shaviyani",
-      "noonu",
-      "raa",
-      "baa",
-      "lhaviyani"
-    ],
-    "star1Score": 2000,
+    "timeLimit": 0,
+    "dropItemCount": 0,
+    "letterTargets": {},
+    "availableLetters": ["haa", "shaviyani", "noonu", "raa", "baa", "lhaviyani"],
+    "star1Score": 2200,
+    "star2Score": 0,
+    "star3Score": 0,
     "blockers": [],
     "dropItems": []
   },
   {
     "levelNumber": 7,
-    "objectiveType": "clearLetters",
+    "objectiveType": "score",
+    "targetScore": 2500,
     "moveLimit": 28,
-    "letterTargets": {
-      "haa": 10,
-      "shaviyani": 10
-    },
-    "availableLetters": [
-      "haa",
-      "shaviyani",
-      "noonu",
-      "raa",
-      "baa",
-      "lhaviyani"
-    ],
-    "star1Score": 2200,
+    "timeLimit": 0,
+    "dropItemCount": 0,
+    "letterTargets": {},
+    "availableLetters": ["haa", "shaviyani", "noonu", "raa", "baa", "lhaviyani"],
+    "star1Score": 2500,
+    "star2Score": 0,
+    "star3Score": 0,
     "blockers": [],
     "dropItems": []
   },
   {
     "levelNumber": 8,
-    "objectiveType": "score",
-    "targetScore": 2800,
-    "moveLimit": 27,
-    "availableLetters": [
-      "haa",
-      "shaviyani",
-      "noonu",
-      "raa",
-      "baa",
-      "lhaviyani"
-    ],
+    "objectiveType": "clearLetters",
+    "targetScore": 0,
+    "moveLimit": 26,
+    "timeLimit": 0,
+    "dropItemCount": 0,
+    "letterTargets": {"haa": 12},
+    "availableLetters": ["haa", "shaviyani", "noonu", "raa", "baa", "lhaviyani"],
     "star1Score": 2800,
+    "star2Score": 0,
+    "star3Score": 0,
     "blockers": [],
     "dropItems": []
   },
   {
     "levelNumber": 9,
     "objectiveType": "clearLetters",
+    "targetScore": 0,
     "moveLimit": 26,
-    "letterTargets": {
-      "noonu": 12,
-      "raa": 12
-    },
-    "availableLetters": [
-      "haa",
-      "shaviyani",
-      "noonu",
-      "raa",
-      "baa",
-      "lhaviyani"
-    ],
-    "star1Score": 3000,
+    "timeLimit": 0,
+    "dropItemCount": 0,
+    "letterTargets": {"shaviyani": 15},
+    "availableLetters": ["haa", "shaviyani", "noonu", "raa", "baa", "lhaviyani"],
+    "star1Score": 3200,
+    "star2Score": 0,
+    "star3Score": 0,
     "blockers": [],
     "dropItems": []
   },
   {
     "levelNumber": 10,
-    "objectiveType": "clearLetters",
+    "objectiveType": "score",
+    "targetScore": 3500,
     "moveLimit": 25,
-    "letterTargets": {
-      "baa": 15,
-      "lhaviyani": 10,
-      "haa": 8
-    },
-    "availableLetters": [
-      "haa",
-      "shaviyani",
-      "noonu",
-      "raa",
-      "baa",
-      "lhaviyani"
-    ],
+    "timeLimit": 0,
+    "dropItemCount": 0,
+    "letterTargets": {},
+    "availableLetters": ["haa", "shaviyani", "noonu", "raa", "baa", "lhaviyani"],
     "star1Score": 3500,
+    "star2Score": 0,
+    "star3Score": 0,
     "blockers": [],
     "dropItems": []
   },
   {
     "levelNumber": 11,
     "objectiveType": "score",
-    "targetScore": 3000,
-    "moveLimit": 28,
-    "availableLetters": [
-      "haa",
-      "shaviyani",
-      "noonu",
-      "raa",
-      "baa",
-      "lhaviyani",
-      "kaafu",
-      "alifu"
-    ],
-    "star1Score": 3000,
+    "targetScore": 3500,
+    "moveLimit": 25,
+    "timeLimit": 0,
+    "dropItemCount": 0,
+    "letterTargets": {},
+    "availableLetters": ["haa", "shaviyani", "noonu", "raa", "baa", "lhaviyani", "kaafu", "alifu"],
+    "star1Score": 3500,
+    "star2Score": 0,
+    "star3Score": 0,
     "blockers": [
-      {
-        "row": 0,
-        "col": 3,
-        "type": "ice"
-      },
-      {
-        "row": 0,
-        "col": 4,
-        "type": "ice"
-      },
-      {
-        "row": 1,
-        "col": 3,
-        "type": "ice"
-      },
-      {
-        "row": 1,
-        "col": 4,
-        "type": "ice"
-      }
+      {"row": 2, "col": 3, "type": "ice"},
+      {"row": 5, "col": 4, "type": "ice"}
     ],
     "dropItems": []
   },
   {
     "levelNumber": 12,
-    "objectiveType": "clearLetters",
-    "moveLimit": 27,
-    "letterTargets": {
-      "kaafu": 10,
-      "alifu": 10
-    },
-    "availableLetters": [
-      "haa",
-      "shaviyani",
-      "noonu",
-      "raa",
-      "baa",
-      "lhaviyani",
-      "kaafu",
-      "alifu"
-    ],
-    "star1Score": 3200,
+    "objectiveType": "score",
+    "targetScore": 4000,
+    "moveLimit": 25,
+    "timeLimit": 0,
+    "dropItemCount": 0,
+    "letterTargets": {},
+    "availableLetters": ["haa", "shaviyani", "noonu", "raa", "baa", "lhaviyani", "kaafu", "alifu"],
+    "star1Score": 4000,
+    "star2Score": 0,
+    "star3Score": 0,
     "blockers": [
-      {
-        "row": 2,
-        "col": 1,
-        "type": "ice"
-      },
-      {
-        "row": 2,
-        "col": 6,
-        "type": "ice"
-      },
-      {
-        "row": 5,
-        "col": 1,
-        "type": "ice"
-      },
-      {
-        "row": 5,
-        "col": 6,
-        "type": "ice"
-      }
+      {"row": 1, "col": 2, "type": "ice"},
+      {"row": 6, "col": 5, "type": "ice"}
     ],
     "dropItems": []
   },
   {
     "levelNumber": 13,
-    "objectiveType": "score",
-    "targetScore": 3800,
-    "moveLimit": 26,
-    "availableLetters": [
-      "haa",
-      "shaviyani",
-      "noonu",
-      "raa",
-      "baa",
-      "lhaviyani",
-      "kaafu",
-      "alifu"
-    ],
-    "star1Score": 3800,
+    "objectiveType": "clearLetters",
+    "targetScore": 0,
+    "moveLimit": 24,
+    "timeLimit": 0,
+    "dropItemCount": 0,
+    "letterTargets": {"kaafu": 15, "alifu": 10},
+    "availableLetters": ["haa", "shaviyani", "noonu", "raa", "baa", "lhaviyani", "kaafu", "alifu"],
+    "star1Score": 4200,
+    "star2Score": 0,
+    "star3Score": 0,
     "blockers": [
-      {
-        "row": 1,
-        "col": 2,
-        "type": "ice"
-      },
-      {
-        "row": 1,
-        "col": 5,
-        "type": "ice"
-      },
-      {
-        "row": 3,
-        "col": 0,
-        "type": "ice"
-      },
-      {
-        "row": 3,
-        "col": 7,
-        "type": "ice"
-      },
-      {
-        "row": 4,
-        "col": 3,
-        "type": "ice"
-      },
-      {
-        "row": 4,
-        "col": 4,
-        "type": "ice"
-      }
+      {"row": 1, "col": 1, "type": "ice"},
+      {"row": 3, "col": 6, "type": "ice"},
+      {"row": 5, "col": 3, "type": "ice"}
     ],
     "dropItems": []
   },
   {
     "levelNumber": 14,
-    "objectiveType": "clearLetters",
-    "moveLimit": 25,
-    "letterTargets": {
-      "haa": 12,
-      "shaviyani": 12,
-      "kaafu": 8
-    },
-    "availableLetters": [
-      "haa",
-      "shaviyani",
-      "noonu",
-      "raa",
-      "baa",
-      "lhaviyani",
-      "kaafu",
-      "alifu"
-    ],
-    "star1Score": 4200,
+    "objectiveType": "score",
+    "targetScore": 4500,
+    "moveLimit": 24,
+    "timeLimit": 0,
+    "dropItemCount": 0,
+    "letterTargets": {},
+    "availableLetters": ["haa", "shaviyani", "noonu", "raa", "baa", "lhaviyani", "kaafu", "alifu"],
+    "star1Score": 4500,
+    "star2Score": 0,
+    "star3Score": 0,
     "blockers": [
-      {
-        "row": 0,
-        "col": 0,
-        "type": "ice"
-      },
-      {
-        "row": 0,
-        "col": 7,
-        "type": "ice"
-      },
-      {
-        "row": 2,
-        "col": 3,
-        "type": "ice"
-      },
-      {
-        "row": 2,
-        "col": 4,
-        "type": "ice"
-      },
-      {
-        "row": 5,
-        "col": 2,
-        "type": "ice"
-      },
-      {
-        "row": 5,
-        "col": 5,
-        "type": "ice"
-      }
+      {"row": 2, "col": 2, "type": "ice"},
+      {"row": 5, "col": 5, "type": "ice"}
     ],
     "dropItems": []
   },
@@ -370,1730 +226,428 @@
     "levelNumber": 15,
     "objectiveType": "score",
     "targetScore": 5000,
-    "moveLimit": 25,
-    "availableLetters": [
-      "haa",
-      "shaviyani",
-      "noonu",
-      "raa",
-      "baa",
-      "lhaviyani",
-      "kaafu",
-      "alifu"
-    ],
+    "moveLimit": 23,
+    "timeLimit": 0,
+    "dropItemCount": 0,
+    "letterTargets": {},
+    "availableLetters": ["haa", "shaviyani", "noonu", "raa", "baa", "lhaviyani", "kaafu", "alifu"],
     "star1Score": 5000,
+    "star2Score": 0,
+    "star3Score": 0,
     "blockers": [
-      {
-        "row": 0,
-        "col": 2,
-        "type": "ice"
-      },
-      {
-        "row": 0,
-        "col": 5,
-        "type": "ice"
-      },
-      {
-        "row": 1,
-        "col": 1,
-        "type": "ice"
-      },
-      {
-        "row": 1,
-        "col": 6,
-        "type": "ice"
-      },
-      {
-        "row": 3,
-        "col": 3,
-        "type": "ice"
-      },
-      {
-        "row": 3,
-        "col": 4,
-        "type": "ice"
-      },
-      {
-        "row": 6,
-        "col": 0,
-        "type": "ice"
-      },
-      {
-        "row": 6,
-        "col": 7,
-        "type": "ice"
-      }
+      {"row": 1, "col": 3, "type": "ice"},
+      {"row": 3, "col": 1, "type": "ice"},
+      {"row": 6, "col": 6, "type": "ice"}
     ],
     "dropItems": []
   },
   {
     "levelNumber": 16,
     "objectiveType": "score",
-    "targetScore": 4000,
-    "moveLimit": 25,
-    "availableLetters": [
-      "haa",
-      "shaviyani",
-      "noonu",
-      "raa",
-      "baa",
-      "lhaviyani",
-      "kaafu",
-      "alifu"
-    ],
-    "star1Score": 4000,
+    "targetScore": 5000,
+    "moveLimit": 22,
+    "timeLimit": 0,
+    "dropItemCount": 0,
+    "letterTargets": {},
+    "availableLetters": ["haa", "shaviyani", "noonu", "raa", "baa", "lhaviyani", "kaafu", "alifu"],
+    "star1Score": 5000,
+    "star2Score": 0,
+    "star3Score": 0,
     "blockers": [
-      {
-        "row": 1,
-        "col": 3,
-        "type": "coral"
-      },
-      {
-        "row": 1,
-        "col": 4,
-        "type": "coral"
-      },
-      {
-        "row": 3,
-        "col": 1,
-        "type": "ice"
-      },
-      {
-        "row": 3,
-        "col": 6,
-        "type": "ice"
-      },
-      {
-        "row": 5,
-        "col": 3,
-        "type": "coral"
-      },
-      {
-        "row": 5,
-        "col": 4,
-        "type": "coral"
-      }
+      {"row": 2, "col": 4, "type": "coral"},
+      {"row": 5, "col": 3, "type": "coral"}
     ],
     "dropItems": []
   },
   {
     "levelNumber": 17,
-    "objectiveType": "clearLetters",
-    "moveLimit": 24,
-    "letterTargets": {
-      "raa": 15,
-      "baa": 15
-    },
-    "availableLetters": [
-      "haa",
-      "shaviyani",
-      "noonu",
-      "raa",
-      "baa",
-      "lhaviyani",
-      "kaafu",
-      "alifu"
-    ],
-    "star1Score": 4500,
+    "objectiveType": "score",
+    "targetScore": 5500,
+    "moveLimit": 22,
+    "timeLimit": 0,
+    "dropItemCount": 0,
+    "letterTargets": {},
+    "availableLetters": ["haa", "shaviyani", "noonu", "raa", "baa", "lhaviyani", "kaafu", "alifu"],
+    "star1Score": 5500,
+    "star2Score": 0,
+    "star3Score": 0,
     "blockers": [
-      {
-        "row": 0,
-        "col": 1,
-        "type": "coral"
-      },
-      {
-        "row": 0,
-        "col": 6,
-        "type": "coral"
-      },
-      {
-        "row": 2,
-        "col": 2,
-        "type": "ice"
-      },
-      {
-        "row": 2,
-        "col": 5,
-        "type": "ice"
-      },
-      {
-        "row": 4,
-        "col": 0,
-        "type": "coral"
-      },
-      {
-        "row": 4,
-        "col": 7,
-        "type": "coral"
-      },
-      {
-        "row": 6,
-        "col": 3,
-        "type": "ice"
-      },
-      {
-        "row": 6,
-        "col": 4,
-        "type": "ice"
-      }
+      {"row": 1, "col": 2, "type": "coral"},
+      {"row": 6, "col": 5, "type": "coral"}
     ],
     "dropItems": []
   },
   {
     "levelNumber": 18,
-    "objectiveType": "score",
-    "targetScore": 5000,
-    "moveLimit": 23,
-    "availableLetters": [
-      "haa",
-      "shaviyani",
-      "noonu",
-      "raa",
-      "baa",
-      "lhaviyani",
-      "kaafu",
-      "alifu"
-    ],
-    "star1Score": 5000,
+    "objectiveType": "clearLetters",
+    "targetScore": 0,
+    "moveLimit": 22,
+    "timeLimit": 0,
+    "dropItemCount": 0,
+    "letterTargets": {"raa": 18},
+    "availableLetters": ["haa", "shaviyani", "noonu", "raa", "baa", "lhaviyani", "kaafu", "alifu"],
+    "star1Score": 5500,
+    "star2Score": 0,
+    "star3Score": 0,
     "blockers": [
-      {
-        "row": 0,
-        "col": 0,
-        "type": "coral"
-      },
-      {
-        "row": 0,
-        "col": 7,
-        "type": "coral"
-      },
-      {
-        "row": 1,
-        "col": 1,
-        "type": "ice"
-      },
-      {
-        "row": 1,
-        "col": 6,
-        "type": "ice"
-      },
-      {
-        "row": 2,
-        "col": 3,
-        "type": "coral"
-      },
-      {
-        "row": 2,
-        "col": 4,
-        "type": "coral"
-      },
-      {
-        "row": 4,
-        "col": 2,
-        "type": "ice"
-      },
-      {
-        "row": 4,
-        "col": 5,
-        "type": "ice"
-      },
-      {
-        "row": 6,
-        "col": 1,
-        "type": "coral"
-      },
-      {
-        "row": 6,
-        "col": 6,
-        "type": "coral"
-      }
+      {"row": 1, "col": 1, "type": "coral"},
+      {"row": 3, "col": 5, "type": "coral"},
+      {"row": 6, "col": 3, "type": "coral"}
     ],
     "dropItems": []
   },
   {
     "levelNumber": 19,
-    "objectiveType": "clearLetters",
-    "moveLimit": 23,
-    "letterTargets": {
-      "alifu": 14,
-      "kaafu": 14,
-      "noonu": 10
-    },
-    "availableLetters": [
-      "haa",
-      "shaviyani",
-      "noonu",
-      "raa",
-      "baa",
-      "lhaviyani",
-      "kaafu",
-      "alifu"
-    ],
-    "star1Score": 5500,
+    "objectiveType": "score",
+    "targetScore": 5800,
+    "moveLimit": 22,
+    "timeLimit": 0,
+    "dropItemCount": 0,
+    "letterTargets": {},
+    "availableLetters": ["haa", "shaviyani", "noonu", "raa", "baa", "lhaviyani", "kaafu", "alifu"],
+    "star1Score": 5800,
+    "star2Score": 0,
+    "star3Score": 0,
     "blockers": [
-      {
-        "row": 1,
-        "col": 0,
-        "type": "coral"
-      },
-      {
-        "row": 1,
-        "col": 7,
-        "type": "coral"
-      },
-      {
-        "row": 2,
-        "col": 2,
-        "type": "coral"
-      },
-      {
-        "row": 2,
-        "col": 5,
-        "type": "coral"
-      },
-      {
-        "row": 3,
-        "col": 3,
-        "type": "ice"
-      },
-      {
-        "row": 3,
-        "col": 4,
-        "type": "ice"
-      },
-      {
-        "row": 5,
-        "col": 1,
-        "type": "coral"
-      },
-      {
-        "row": 5,
-        "col": 6,
-        "type": "coral"
-      }
+      {"row": 2, "col": 2, "type": "ice"},
+      {"row": 5, "col": 6, "type": "ice"},
+      {"row": 4, "col": 4, "type": "coral"}
     ],
     "dropItems": []
   },
   {
     "levelNumber": 20,
-    "objectiveType": "score",
-    "targetScore": 6000,
-    "moveLimit": 22,
-    "availableLetters": [
-      "haa",
-      "shaviyani",
-      "noonu",
-      "raa",
-      "baa",
-      "lhaviyani",
-      "kaafu",
-      "alifu"
-    ],
+    "objectiveType": "dropItems",
+    "targetScore": 0,
+    "moveLimit": 25,
+    "timeLimit": 0,
+    "dropItemCount": 2,
+    "letterTargets": {},
+    "availableLetters": ["haa", "shaviyani", "noonu", "raa", "baa", "lhaviyani", "kaafu", "alifu"],
     "star1Score": 6000,
+    "star2Score": 0,
+    "star3Score": 0,
     "blockers": [
-      {
-        "row": 0,
-        "col": 2,
-        "type": "coral"
-      },
-      {
-        "row": 0,
-        "col": 5,
-        "type": "coral"
-      },
-      {
-        "row": 1,
-        "col": 3,
-        "type": "ice"
-      },
-      {
-        "row": 1,
-        "col": 4,
-        "type": "ice"
-      },
-      {
-        "row": 3,
-        "col": 0,
-        "type": "coral"
-      },
-      {
-        "row": 3,
-        "col": 7,
-        "type": "coral"
-      },
-      {
-        "row": 4,
-        "col": 1,
-        "type": "ice"
-      },
-      {
-        "row": 4,
-        "col": 6,
-        "type": "ice"
-      },
-      {
-        "row": 6,
-        "col": 2,
-        "type": "coral"
-      },
-      {
-        "row": 6,
-        "col": 3,
-        "type": "coral"
-      },
-      {
-        "row": 6,
-        "col": 4,
-        "type": "coral"
-      },
-      {
-        "row": 6,
-        "col": 5,
-        "type": "coral"
-      }
+      {"row": 3, "col": 2, "type": "coral"},
+      {"row": 4, "col": 5, "type": "coral"}
     ],
-    "dropItems": []
+    "dropItems": [
+      {"row": 0, "col": 3},
+      {"row": 0, "col": 5}
+    ]
   },
   {
     "levelNumber": 21,
     "objectiveType": "score",
-    "targetScore": 5500,
-    "moveLimit": 25,
-    "availableLetters": [
-      "haa",
-      "shaviyani",
-      "noonu",
-      "raa",
-      "baa",
-      "lhaviyani",
-      "kaafu",
-      "alifu",
-      "vaavu",
-      "meemu"
-    ],
-    "star1Score": 5500,
+    "targetScore": 6000,
+    "moveLimit": 22,
+    "timeLimit": 0,
+    "dropItemCount": 0,
+    "letterTargets": {},
+    "availableLetters": ["haa", "shaviyani", "noonu", "raa", "baa", "lhaviyani", "kaafu", "alifu", "vaavu", "meemu"],
+    "star1Score": 6000,
+    "star2Score": 0,
+    "star3Score": 0,
     "blockers": [
-      {
-        "row": 0,
-        "col": 3,
-        "type": "chain"
-      },
-      {
-        "row": 0,
-        "col": 4,
-        "type": "chain"
-      },
-      {
-        "row": 2,
-        "col": 1,
-        "type": "ice"
-      },
-      {
-        "row": 2,
-        "col": 6,
-        "type": "ice"
-      },
-      {
-        "row": 4,
-        "col": 2,
-        "type": "coral"
-      },
-      {
-        "row": 4,
-        "col": 5,
-        "type": "coral"
-      },
-      {
-        "row": 6,
-        "col": 3,
-        "type": "chain"
-      },
-      {
-        "row": 6,
-        "col": 4,
-        "type": "chain"
-      }
+      {"row": 2, "col": 3, "type": "chain"},
+      {"row": 5, "col": 4, "type": "chain"}
     ],
     "dropItems": []
   },
   {
     "levelNumber": 22,
-    "objectiveType": "dropItems",
-    "moveLimit": 24,
-    "dropItemCount": 3,
-    "availableLetters": [
-      "haa",
-      "shaviyani",
-      "noonu",
-      "raa",
-      "baa",
-      "lhaviyani",
-      "kaafu",
-      "alifu",
-      "vaavu",
-      "meemu"
-    ],
-    "star1Score": 5800,
+    "objectiveType": "score",
+    "targetScore": 6500,
+    "moveLimit": 22,
+    "timeLimit": 0,
+    "dropItemCount": 0,
+    "letterTargets": {},
+    "availableLetters": ["haa", "shaviyani", "noonu", "raa", "baa", "lhaviyani", "kaafu", "alifu", "vaavu", "meemu"],
+    "star1Score": 6500,
+    "star2Score": 0,
+    "star3Score": 0,
     "blockers": [
-      {
-        "row": 1,
-        "col": 2,
-        "type": "chain"
-      },
-      {
-        "row": 1,
-        "col": 5,
-        "type": "chain"
-      },
-      {
-        "row": 3,
-        "col": 0,
-        "type": "ice"
-      },
-      {
-        "row": 3,
-        "col": 7,
-        "type": "ice"
-      },
-      {
-        "row": 5,
-        "col": 3,
-        "type": "coral"
-      },
-      {
-        "row": 5,
-        "col": 4,
-        "type": "coral"
-      }
+      {"row": 1, "col": 2, "type": "chain"},
+      {"row": 6, "col": 5, "type": "chain"}
     ],
-    "dropItems": [
-      {
-        "row": 0,
-        "col": 1
-      },
-      {
-        "row": 0,
-        "col": 4
-      },
-      {
-        "row": 0,
-        "col": 6
-      }
-    ]
+    "dropItems": []
   },
   {
     "levelNumber": 23,
     "objectiveType": "clearLetters",
-    "moveLimit": 23,
-    "letterTargets": {
-      "vaavu": 12,
-      "meemu": 12,
-      "haa": 10
-    },
-    "availableLetters": [
-      "haa",
-      "shaviyani",
-      "noonu",
-      "raa",
-      "baa",
-      "lhaviyani",
-      "kaafu",
-      "alifu",
-      "vaavu",
-      "meemu"
-    ],
-    "star1Score": 6200,
+    "targetScore": 0,
+    "moveLimit": 22,
+    "timeLimit": 0,
+    "dropItemCount": 0,
+    "letterTargets": {"vaavu": 12, "meemu": 10},
+    "availableLetters": ["haa", "shaviyani", "noonu", "raa", "baa", "lhaviyani", "kaafu", "alifu", "vaavu", "meemu"],
+    "star1Score": 7000,
+    "star2Score": 0,
+    "star3Score": 0,
     "blockers": [
-      {
-        "row": 0,
-        "col": 0,
-        "type": "chain"
-      },
-      {
-        "row": 0,
-        "col": 7,
-        "type": "chain"
-      },
-      {
-        "row": 2,
-        "col": 3,
-        "type": "ice"
-      },
-      {
-        "row": 2,
-        "col": 4,
-        "type": "ice"
-      },
-      {
-        "row": 3,
-        "col": 2,
-        "type": "coral"
-      },
-      {
-        "row": 3,
-        "col": 5,
-        "type": "coral"
-      },
-      {
-        "row": 5,
-        "col": 1,
-        "type": "chain"
-      },
-      {
-        "row": 5,
-        "col": 6,
-        "type": "chain"
-      },
-      {
-        "row": 6,
-        "col": 3,
-        "type": "ice"
-      },
-      {
-        "row": 6,
-        "col": 4,
-        "type": "ice"
-      }
+      {"row": 1, "col": 1, "type": "chain"},
+      {"row": 4, "col": 6, "type": "chain"},
+      {"row": 3, "col": 3, "type": "ice"}
     ],
     "dropItems": []
   },
   {
     "levelNumber": 24,
     "objectiveType": "dropItems",
-    "moveLimit": 22,
-    "dropItemCount": 4,
-    "availableLetters": [
-      "haa",
-      "shaviyani",
-      "noonu",
-      "raa",
-      "baa",
-      "lhaviyani",
-      "kaafu",
-      "alifu",
-      "vaavu",
-      "meemu"
-    ],
-    "star1Score": 6500,
+    "targetScore": 0,
+    "moveLimit": 24,
+    "timeLimit": 0,
+    "dropItemCount": 3,
+    "letterTargets": {},
+    "availableLetters": ["haa", "shaviyani", "noonu", "raa", "baa", "lhaviyani", "kaafu", "alifu", "vaavu", "meemu"],
+    "star1Score": 7500,
+    "star2Score": 0,
+    "star3Score": 0,
     "blockers": [
-      {
-        "row": 1,
-        "col": 1,
-        "type": "chain"
-      },
-      {
-        "row": 1,
-        "col": 6,
-        "type": "chain"
-      },
-      {
-        "row": 2,
-        "col": 3,
-        "type": "coral"
-      },
-      {
-        "row": 2,
-        "col": 4,
-        "type": "coral"
-      },
-      {
-        "row": 4,
-        "col": 0,
-        "type": "ice"
-      },
-      {
-        "row": 4,
-        "col": 7,
-        "type": "ice"
-      },
-      {
-        "row": 5,
-        "col": 2,
-        "type": "chain"
-      },
-      {
-        "row": 5,
-        "col": 5,
-        "type": "chain"
-      }
+      {"row": 3, "col": 4, "type": "chain"}
     ],
     "dropItems": [
-      {
-        "row": 0,
-        "col": 0
-      },
-      {
-        "row": 0,
-        "col": 3
-      },
-      {
-        "row": 0,
-        "col": 5
-      },
-      {
-        "row": 0,
-        "col": 7
-      }
+      {"row": 0, "col": 2},
+      {"row": 0, "col": 4},
+      {"row": 0, "col": 6}
     ]
   },
   {
     "levelNumber": 25,
     "objectiveType": "score",
-    "targetScore": 7000,
-    "moveLimit": 22,
-    "availableLetters": [
-      "haa",
-      "shaviyani",
-      "noonu",
-      "raa",
-      "baa",
-      "lhaviyani",
-      "kaafu",
-      "alifu",
-      "vaavu",
-      "meemu"
-    ],
-    "star1Score": 7000,
+    "targetScore": 8000,
+    "moveLimit": 20,
+    "timeLimit": 0,
+    "dropItemCount": 0,
+    "letterTargets": {},
+    "availableLetters": ["haa", "shaviyani", "noonu", "raa", "baa", "lhaviyani", "kaafu", "alifu", "vaavu", "meemu"],
+    "star1Score": 8000,
+    "star2Score": 0,
+    "star3Score": 0,
     "blockers": [
-      {
-        "row": 0,
-        "col": 1,
-        "type": "chain"
-      },
-      {
-        "row": 0,
-        "col": 6,
-        "type": "chain"
-      },
-      {
-        "row": 1,
-        "col": 3,
-        "type": "coral"
-      },
-      {
-        "row": 1,
-        "col": 4,
-        "type": "coral"
-      },
-      {
-        "row": 2,
-        "col": 0,
-        "type": "ice"
-      },
-      {
-        "row": 2,
-        "col": 7,
-        "type": "ice"
-      },
-      {
-        "row": 4,
-        "col": 2,
-        "type": "chain"
-      },
-      {
-        "row": 4,
-        "col": 5,
-        "type": "chain"
-      },
-      {
-        "row": 5,
-        "col": 3,
-        "type": "coral"
-      },
-      {
-        "row": 5,
-        "col": 4,
-        "type": "coral"
-      },
-      {
-        "row": 6,
-        "col": 1,
-        "type": "ice"
-      },
-      {
-        "row": 6,
-        "col": 6,
-        "type": "ice"
-      }
+      {"row": 1, "col": 1, "type": "chain"},
+      {"row": 3, "col": 4, "type": "chain"},
+      {"row": 6, "col": 6, "type": "chain"},
+      {"row": 2, "col": 5, "type": "ice"},
+      {"row": 5, "col": 2, "type": "ice"}
     ],
     "dropItems": []
   },
   {
     "levelNumber": 26,
     "objectiveType": "dropItems",
-    "moveLimit": 22,
-    "dropItemCount": 5,
-    "availableLetters": [
-      "haa",
-      "shaviyani",
-      "noonu",
-      "raa",
-      "baa",
-      "lhaviyani",
-      "kaafu",
-      "alifu",
-      "vaavu",
-      "meemu"
-    ],
-    "star1Score": 6000,
+    "targetScore": 0,
+    "moveLimit": 24,
+    "timeLimit": 0,
+    "dropItemCount": 3,
+    "letterTargets": {},
+    "availableLetters": ["haa", "shaviyani", "noonu", "raa", "baa", "lhaviyani", "kaafu", "alifu", "vaavu", "meemu"],
+    "star1Score": 8000,
+    "star2Score": 0,
+    "star3Score": 0,
     "blockers": [
-      {
-        "row": 0,
-        "col": 2,
-        "type": "chain"
-      },
-      {
-        "row": 0,
-        "col": 5,
-        "type": "chain"
-      },
-      {
-        "row": 1,
-        "col": 0,
-        "type": "coral"
-      },
-      {
-        "row": 1,
-        "col": 7,
-        "type": "coral"
-      },
-      {
-        "row": 3,
-        "col": 1,
-        "type": "ice"
-      },
-      {
-        "row": 3,
-        "col": 6,
-        "type": "ice"
-      },
-      {
-        "row": 3,
-        "col": 3,
-        "type": "chain"
-      },
-      {
-        "row": 3,
-        "col": 4,
-        "type": "chain"
-      },
-      {
-        "row": 5,
-        "col": 2,
-        "type": "coral"
-      },
-      {
-        "row": 5,
-        "col": 5,
-        "type": "coral"
-      }
+      {"row": 2, "col": 2, "type": "coral"},
+      {"row": 5, "col": 5, "type": "coral"},
+      {"row": 4, "col": 3, "type": "chain"}
     ],
     "dropItems": [
-      {
-        "row": 0,
-        "col": 1
-      },
-      {
-        "row": 0,
-        "col": 3
-      },
-      {
-        "row": 0,
-        "col": 4
-      },
-      {
-        "row": 0,
-        "col": 6
-      },
-      {
-        "row": 0,
-        "col": 7
-      }
+      {"row": 0, "col": 1},
+      {"row": 0, "col": 4},
+      {"row": 0, "col": 7}
     ]
   },
   {
     "levelNumber": 27,
     "objectiveType": "timed",
-    "targetScore": 6500,
-    "moveLimit": 20,
+    "targetScore": 7000,
+    "moveLimit": 0,
     "timeLimit": 90,
-    "availableLetters": [
-      "haa",
-      "shaviyani",
-      "noonu",
-      "raa",
-      "baa",
-      "lhaviyani",
-      "kaafu",
-      "alifu",
-      "vaavu",
-      "meemu"
-    ],
-    "star1Score": 6500,
+    "dropItemCount": 0,
+    "letterTargets": {},
+    "availableLetters": ["haa", "shaviyani", "noonu", "raa", "baa", "lhaviyani", "kaafu", "alifu", "vaavu", "meemu"],
+    "star1Score": 7000,
+    "star2Score": 0,
+    "star3Score": 0,
     "blockers": [
-      {
-        "row": 0,
-        "col": 0,
-        "type": "ice"
-      },
-      {
-        "row": 0,
-        "col": 7,
-        "type": "ice"
-      },
-      {
-        "row": 2,
-        "col": 2,
-        "type": "chain"
-      },
-      {
-        "row": 2,
-        "col": 5,
-        "type": "chain"
-      },
-      {
-        "row": 4,
-        "col": 1,
-        "type": "coral"
-      },
-      {
-        "row": 4,
-        "col": 6,
-        "type": "coral"
-      },
-      {
-        "row": 6,
-        "col": 3,
-        "type": "chain"
-      },
-      {
-        "row": 6,
-        "col": 4,
-        "type": "chain"
-      }
+      {"row": 1, "col": 3, "type": "ice"},
+      {"row": 4, "col": 4, "type": "ice"},
+      {"row": 6, "col": 1, "type": "ice"}
     ],
     "dropItems": []
   },
   {
     "levelNumber": 28,
-    "objectiveType": "timed",
-    "targetScore": 7500,
+    "objectiveType": "score",
+    "targetScore": 8500,
     "moveLimit": 20,
-    "timeLimit": 80,
-    "availableLetters": [
-      "haa",
-      "shaviyani",
-      "noonu",
-      "raa",
-      "baa",
-      "lhaviyani",
-      "kaafu",
-      "alifu",
-      "vaavu",
-      "meemu"
-    ],
-    "star1Score": 7500,
+    "timeLimit": 0,
+    "dropItemCount": 0,
+    "letterTargets": {},
+    "availableLetters": ["haa", "shaviyani", "noonu", "raa", "baa", "lhaviyani", "kaafu", "alifu", "vaavu", "meemu"],
+    "star1Score": 8500,
+    "star2Score": 0,
+    "star3Score": 0,
     "blockers": [
-      {
-        "row": 0,
-        "col": 3,
-        "type": "chain"
-      },
-      {
-        "row": 0,
-        "col": 4,
-        "type": "chain"
-      },
-      {
-        "row": 1,
-        "col": 1,
-        "type": "coral"
-      },
-      {
-        "row": 1,
-        "col": 6,
-        "type": "coral"
-      },
-      {
-        "row": 2,
-        "col": 0,
-        "type": "ice"
-      },
-      {
-        "row": 2,
-        "col": 7,
-        "type": "ice"
-      },
-      {
-        "row": 4,
-        "col": 3,
-        "type": "chain"
-      },
-      {
-        "row": 4,
-        "col": 4,
-        "type": "chain"
-      },
-      {
-        "row": 5,
-        "col": 2,
-        "type": "coral"
-      },
-      {
-        "row": 5,
-        "col": 5,
-        "type": "coral"
-      }
+      {"row": 1, "col": 1, "type": "ice"},
+      {"row": 2, "col": 5, "type": "ice"},
+      {"row": 4, "col": 3, "type": "ice"},
+      {"row": 6, "col": 6, "type": "ice"},
+      {"row": 3, "col": 2, "type": "coral"},
+      {"row": 5, "col": 4, "type": "coral"}
     ],
     "dropItems": []
   },
   {
     "levelNumber": 29,
-    "objectiveType": "dropItems",
+    "objectiveType": "clearLetters",
+    "targetScore": 0,
     "moveLimit": 20,
-    "dropItemCount": 6,
-    "availableLetters": [
-      "haa",
-      "shaviyani",
-      "noonu",
-      "raa",
-      "baa",
-      "lhaviyani",
-      "kaafu",
-      "alifu",
-      "vaavu",
-      "meemu"
-    ],
-    "star1Score": 8000,
+    "timeLimit": 0,
+    "dropItemCount": 0,
+    "letterTargets": {"haa": 20, "raa": 15},
+    "availableLetters": ["haa", "shaviyani", "noonu", "raa", "baa", "lhaviyani", "kaafu", "alifu", "vaavu", "meemu"],
+    "star1Score": 9000,
+    "star2Score": 0,
+    "star3Score": 0,
     "blockers": [
-      {
-        "row": 0,
-        "col": 1,
-        "type": "chain"
-      },
-      {
-        "row": 0,
-        "col": 6,
-        "type": "chain"
-      },
-      {
-        "row": 1,
-        "col": 3,
-        "type": "ice"
-      },
-      {
-        "row": 1,
-        "col": 4,
-        "type": "ice"
-      },
-      {
-        "row": 2,
-        "col": 2,
-        "type": "coral"
-      },
-      {
-        "row": 2,
-        "col": 5,
-        "type": "coral"
-      },
-      {
-        "row": 4,
-        "col": 0,
-        "type": "chain"
-      },
-      {
-        "row": 4,
-        "col": 7,
-        "type": "chain"
-      },
-      {
-        "row": 5,
-        "col": 1,
-        "type": "ice"
-      },
-      {
-        "row": 5,
-        "col": 6,
-        "type": "ice"
-      },
-      {
-        "row": 6,
-        "col": 3,
-        "type": "coral"
-      },
-      {
-        "row": 6,
-        "col": 4,
-        "type": "coral"
-      }
+      {"row": 1, "col": 2, "type": "chain"},
+      {"row": 3, "col": 5, "type": "chain"},
+      {"row": 6, "col": 1, "type": "chain"},
+      {"row": 2, "col": 4, "type": "coral"},
+      {"row": 5, "col": 6, "type": "coral"}
     ],
-    "dropItems": [
-      {
-        "row": 0,
-        "col": 0
-      },
-      {
-        "row": 0,
-        "col": 2
-      },
-      {
-        "row": 0,
-        "col": 3
-      },
-      {
-        "row": 0,
-        "col": 4
-      },
-      {
-        "row": 0,
-        "col": 5
-      },
-      {
-        "row": 0,
-        "col": 7
-      }
-    ]
+    "dropItems": []
   },
   {
     "levelNumber": 30,
     "objectiveType": "timed",
     "targetScore": 9000,
-    "moveLimit": 18,
-    "timeLimit": 75,
-    "availableLetters": [
-      "haa",
-      "shaviyani",
-      "noonu",
-      "raa",
-      "baa",
-      "lhaviyani",
-      "kaafu",
-      "alifu",
-      "vaavu",
-      "meemu"
-    ],
+    "moveLimit": 0,
+    "timeLimit": 80,
+    "dropItemCount": 0,
+    "letterTargets": {},
+    "availableLetters": ["haa", "shaviyani", "noonu", "raa", "baa", "lhaviyani", "kaafu", "alifu", "vaavu", "meemu"],
     "star1Score": 9000,
+    "star2Score": 0,
+    "star3Score": 0,
     "blockers": [
-      {
-        "row": 0,
-        "col": 0,
-        "type": "chain"
-      },
-      {
-        "row": 0,
-        "col": 7,
-        "type": "chain"
-      },
-      {
-        "row": 1,
-        "col": 2,
-        "type": "coral"
-      },
-      {
-        "row": 1,
-        "col": 5,
-        "type": "coral"
-      },
-      {
-        "row": 2,
-        "col": 3,
-        "type": "ice"
-      },
-      {
-        "row": 2,
-        "col": 4,
-        "type": "ice"
-      },
-      {
-        "row": 3,
-        "col": 1,
-        "type": "chain"
-      },
-      {
-        "row": 3,
-        "col": 6,
-        "type": "chain"
-      },
-      {
-        "row": 4,
-        "col": 0,
-        "type": "coral"
-      },
-      {
-        "row": 4,
-        "col": 7,
-        "type": "coral"
-      },
-      {
-        "row": 5,
-        "col": 3,
-        "type": "chain"
-      },
-      {
-        "row": 5,
-        "col": 4,
-        "type": "chain"
-      },
-      {
-        "row": 6,
-        "col": 1,
-        "type": "ice"
-      },
-      {
-        "row": 6,
-        "col": 6,
-        "type": "ice"
-      }
+      {"row": 1, "col": 3, "type": "chain"},
+      {"row": 5, "col": 4, "type": "chain"},
+      {"row": 2, "col": 1, "type": "ice"},
+      {"row": 6, "col": 6, "type": "ice"}
     ],
     "dropItems": []
   },
   {
     "levelNumber": 31,
     "objectiveType": "score",
-    "targetScore": 8000,
-    "moveLimit": 22,
-    "availableLetters": [
-      "haa",
-      "shaviyani",
-      "noonu",
-      "raa",
-      "baa",
-      "lhaviyani",
-      "kaafu",
-      "alifu",
-      "vaavu",
-      "meemu",
-      "faafu",
-      "dhaalu"
-    ],
-    "star1Score": 8000,
+    "targetScore": 9000,
+    "moveLimit": 20,
+    "timeLimit": 0,
+    "dropItemCount": 0,
+    "letterTargets": {},
+    "availableLetters": ["haa", "shaviyani", "noonu", "raa", "baa", "lhaviyani", "kaafu", "alifu", "vaavu", "meemu", "faafu", "dhaalu"],
+    "star1Score": 9000,
+    "star2Score": 0,
+    "star3Score": 0,
     "blockers": [
-      {
-        "row": 0,
-        "col": 0,
-        "type": "chain"
-      },
-      {
-        "row": 0,
-        "col": 3,
-        "type": "coral"
-      },
-      {
-        "row": 0,
-        "col": 4,
-        "type": "coral"
-      },
-      {
-        "row": 0,
-        "col": 7,
-        "type": "chain"
-      },
-      {
-        "row": 1,
-        "col": 1,
-        "type": "ice"
-      },
-      {
-        "row": 1,
-        "col": 6,
-        "type": "ice"
-      },
-      {
-        "row": 3,
-        "col": 2,
-        "type": "chain"
-      },
-      {
-        "row": 3,
-        "col": 5,
-        "type": "chain"
-      },
-      {
-        "row": 4,
-        "col": 3,
-        "type": "coral"
-      },
-      {
-        "row": 4,
-        "col": 4,
-        "type": "coral"
-      },
-      {
-        "row": 5,
-        "col": 0,
-        "type": "ice"
-      },
-      {
-        "row": 5,
-        "col": 7,
-        "type": "ice"
-      },
-      {
-        "row": 6,
-        "col": 2,
-        "type": "chain"
-      },
-      {
-        "row": 6,
-        "col": 5,
-        "type": "chain"
-      }
+      {"row": 1, "col": 2, "type": "ice"},
+      {"row": 3, "col": 6, "type": "ice"},
+      {"row": 5, "col": 1, "type": "ice"},
+      {"row": 2, "col": 4, "type": "coral"},
+      {"row": 6, "col": 3, "type": "coral"},
+      {"row": 4, "col": 5, "type": "chain"}
     ],
     "dropItems": []
   },
   {
     "levelNumber": 32,
     "objectiveType": "clearLetters",
+    "targetScore": 0,
     "moveLimit": 20,
-    "letterTargets": {
-      "faafu": 15,
-      "dhaalu": 15,
-      "vaavu": 10,
-      "meemu": 10
-    },
-    "availableLetters": [
-      "haa",
-      "shaviyani",
-      "noonu",
-      "raa",
-      "baa",
-      "lhaviyani",
-      "kaafu",
-      "alifu",
-      "vaavu",
-      "meemu",
-      "faafu",
-      "dhaalu"
-    ],
-    "star1Score": 8500,
+    "timeLimit": 0,
+    "dropItemCount": 0,
+    "letterTargets": {"faafu": 15, "dhaalu": 12},
+    "availableLetters": ["haa", "shaviyani", "noonu", "raa", "baa", "lhaviyani", "kaafu", "alifu", "vaavu", "meemu", "faafu", "dhaalu"],
+    "star1Score": 9500,
+    "star2Score": 0,
+    "star3Score": 0,
     "blockers": [
-      {
-        "row": 0,
-        "col": 1,
-        "type": "chain"
-      },
-      {
-        "row": 0,
-        "col": 6,
-        "type": "chain"
-      },
-      {
-        "row": 1,
-        "col": 3,
-        "type": "coral"
-      },
-      {
-        "row": 1,
-        "col": 4,
-        "type": "coral"
-      },
-      {
-        "row": 2,
-        "col": 0,
-        "type": "ice"
-      },
-      {
-        "row": 2,
-        "col": 7,
-        "type": "ice"
-      },
-      {
-        "row": 3,
-        "col": 2,
-        "type": "chain"
-      },
-      {
-        "row": 3,
-        "col": 5,
-        "type": "chain"
-      },
-      {
-        "row": 4,
-        "col": 1,
-        "type": "coral"
-      },
-      {
-        "row": 4,
-        "col": 6,
-        "type": "coral"
-      },
-      {
-        "row": 5,
-        "col": 3,
-        "type": "ice"
-      },
-      {
-        "row": 5,
-        "col": 4,
-        "type": "ice"
-      },
-      {
-        "row": 6,
-        "col": 0,
-        "type": "chain"
-      },
-      {
-        "row": 6,
-        "col": 7,
-        "type": "chain"
-      }
+      {"row": 1, "col": 1, "type": "ice"},
+      {"row": 3, "col": 5, "type": "coral"},
+      {"row": 5, "col": 3, "type": "chain"},
+      {"row": 6, "col": 6, "type": "ice"}
     ],
     "dropItems": []
   },
   {
     "levelNumber": 33,
     "objectiveType": "dropItems",
-    "moveLimit": 20,
-    "dropItemCount": 7,
-    "availableLetters": [
-      "haa",
-      "shaviyani",
-      "noonu",
-      "raa",
-      "baa",
-      "lhaviyani",
-      "kaafu",
-      "alifu",
-      "vaavu",
-      "meemu",
-      "faafu",
-      "dhaalu"
-    ],
-    "star1Score": 9000,
+    "targetScore": 0,
+    "moveLimit": 22,
+    "timeLimit": 0,
+    "dropItemCount": 4,
+    "letterTargets": {},
+    "availableLetters": ["haa", "shaviyani", "noonu", "raa", "baa", "lhaviyani", "kaafu", "alifu", "vaavu", "meemu", "faafu", "dhaalu"],
+    "star1Score": 10000,
+    "star2Score": 0,
+    "star3Score": 0,
     "blockers": [
-      {
-        "row": 0,
-        "col": 0,
-        "type": "chain"
-      },
-      {
-        "row": 0,
-        "col": 7,
-        "type": "chain"
-      },
-      {
-        "row": 1,
-        "col": 2,
-        "type": "coral"
-      },
-      {
-        "row": 1,
-        "col": 5,
-        "type": "coral"
-      },
-      {
-        "row": 2,
-        "col": 1,
-        "type": "ice"
-      },
-      {
-        "row": 2,
-        "col": 6,
-        "type": "ice"
-      },
-      {
-        "row": 3,
-        "col": 3,
-        "type": "chain"
-      },
-      {
-        "row": 3,
-        "col": 4,
-        "type": "chain"
-      },
-      {
-        "row": 4,
-        "col": 0,
-        "type": "coral"
-      },
-      {
-        "row": 4,
-        "col": 7,
-        "type": "coral"
-      },
-      {
-        "row": 5,
-        "col": 2,
-        "type": "chain"
-      },
-      {
-        "row": 5,
-        "col": 5,
-        "type": "chain"
-      },
-      {
-        "row": 6,
-        "col": 1,
-        "type": "ice"
-      },
-      {
-        "row": 6,
-        "col": 3,
-        "type": "coral"
-      },
-      {
-        "row": 6,
-        "col": 4,
-        "type": "coral"
-      },
-      {
-        "row": 6,
-        "col": 6,
-        "type": "ice"
-      }
+      {"row": 2, "col": 2, "type": "ice"},
+      {"row": 4, "col": 5, "type": "ice"},
+      {"row": 6, "col": 1, "type": "ice"},
+      {"row": 3, "col": 4, "type": "chain"},
+      {"row": 5, "col": 6, "type": "chain"}
     ],
     "dropItems": [
-      {
-        "row": 0,
-        "col": 1
-      },
-      {
-        "row": 0,
-        "col": 2
-      },
-      {
-        "row": 0,
-        "col": 3
-      },
-      {
-        "row": 0,
-        "col": 4
-      },
-      {
-        "row": 0,
-        "col": 5
-      },
-      {
-        "row": 0,
-        "col": 6
-      },
-      {
-        "row": 1,
-        "col": 3
-      }
+      {"row": 0, "col": 1},
+      {"row": 0, "col": 3},
+      {"row": 0, "col": 5},
+      {"row": 0, "col": 7}
     ]
   },
   {
     "levelNumber": 34,
     "objectiveType": "timed",
     "targetScore": 10000,
-    "moveLimit": 18,
-    "timeLimit": 70,
-    "availableLetters": [
-      "haa",
-      "shaviyani",
-      "noonu",
-      "raa",
-      "baa",
-      "lhaviyani",
-      "kaafu",
-      "alifu",
-      "vaavu",
-      "meemu",
-      "faafu",
-      "dhaalu"
-    ],
+    "moveLimit": 0,
+    "timeLimit": 75,
+    "dropItemCount": 0,
+    "letterTargets": {},
+    "availableLetters": ["haa", "shaviyani", "noonu", "raa", "baa", "lhaviyani", "kaafu", "alifu", "vaavu", "meemu", "faafu", "dhaalu"],
     "star1Score": 10000,
+    "star2Score": 0,
+    "star3Score": 0,
     "blockers": [
-      {
-        "row": 0,
-        "col": 1,
-        "type": "chain"
-      },
-      {
-        "row": 0,
-        "col": 3,
-        "type": "coral"
-      },
-      {
-        "row": 0,
-        "col": 4,
-        "type": "coral"
-      },
-      {
-        "row": 0,
-        "col": 6,
-        "type": "chain"
-      },
-      {
-        "row": 1,
-        "col": 0,
-        "type": "ice"
-      },
-      {
-        "row": 1,
-        "col": 7,
-        "type": "ice"
-      },
-      {
-        "row": 2,
-        "col": 2,
-        "type": "chain"
-      },
-      {
-        "row": 2,
-        "col": 5,
-        "type": "chain"
-      },
-      {
-        "row": 3,
-        "col": 3,
-        "type": "ice"
-      },
-      {
-        "row": 3,
-        "col": 4,
-        "type": "ice"
-      },
-      {
-        "row": 4,
-        "col": 1,
-        "type": "coral"
-      },
-      {
-        "row": 4,
-        "col": 6,
-        "type": "coral"
-      },
-      {
-        "row": 5,
-        "col": 0,
-        "type": "chain"
-      },
-      {
-        "row": 5,
-        "col": 7,
-        "type": "chain"
-      },
-      {
-        "row": 6,
-        "col": 2,
-        "type": "ice"
-      },
-      {
-        "row": 6,
-        "col": 5,
-        "type": "ice"
-      }
+      {"row": 1, "col": 1, "type": "ice"},
+      {"row": 3, "col": 6, "type": "coral"},
+      {"row": 5, "col": 3, "type": "chain"},
+      {"row": 2, "col": 4, "type": "ice"},
+      {"row": 6, "col": 2, "type": "coral"}
     ],
     "dropItems": []
   },
   {
     "levelNumber": 35,
-    "objectiveType": "clearLetters",
+    "objectiveType": "score",
+    "targetScore": 12000,
     "moveLimit": 18,
-    "letterTargets": {
-      "faafu": 18,
-      "dhaalu": 18,
-      "kaafu": 12,
-      "alifu": 12,
-      "haa": 10
-    },
-    "availableLetters": [
-      "haa",
-      "shaviyani",
-      "noonu",
-      "raa",
-      "baa",
-      "lhaviyani",
-      "kaafu",
-      "alifu",
-      "vaavu",
-      "meemu",
-      "faafu",
-      "dhaalu"
-    ],
+    "timeLimit": 0,
+    "dropItemCount": 0,
+    "letterTargets": {},
+    "availableLetters": ["haa", "shaviyani", "noonu", "raa", "baa", "lhaviyani", "kaafu", "alifu", "vaavu", "meemu", "faafu", "dhaalu"],
     "star1Score": 12000,
+    "star2Score": 0,
+    "star3Score": 0,
     "blockers": [
-      {
-        "row": 0,
-        "col": 0,
-        "type": "chain"
-      },
-      {
-        "row": 0,
-        "col": 3,
-        "type": "coral"
-      },
-      {
-        "row": 0,
-        "col": 4,
-        "type": "coral"
-      },
-      {
-        "row": 0,
-        "col": 7,
-        "type": "chain"
-      },
-      {
-        "row": 1,
-        "col": 1,
-        "type": "ice"
-      },
-      {
-        "row": 1,
-        "col": 6,
-        "type": "ice"
-      },
-      {
-        "row": 2,
-        "col": 2,
-        "type": "chain"
-      },
-      {
-        "row": 2,
-        "col": 5,
-        "type": "chain"
-      },
-      {
-        "row": 3,
-        "col": 0,
-        "type": "coral"
-      },
-      {
-        "row": 3,
-        "col": 3,
-        "type": "ice"
-      },
-      {
-        "row": 3,
-        "col": 4,
-        "type": "ice"
-      },
-      {
-        "row": 3,
-        "col": 7,
-        "type": "coral"
-      },
-      {
-        "row": 4,
-        "col": 1,
-        "type": "chain"
-      },
-      {
-        "row": 4,
-        "col": 6,
-        "type": "chain"
-      },
-      {
-        "row": 5,
-        "col": 2,
-        "type": "coral"
-      },
-      {
-        "row": 5,
-        "col": 5,
-        "type": "coral"
-      },
-      {
-        "row": 6,
-        "col": 0,
-        "type": "ice"
-      },
-      {
-        "row": 6,
-        "col": 7,
-        "type": "ice"
-      }
+      {"row": 1, "col": 1, "type": "ice"},
+      {"row": 2, "col": 5, "type": "ice"},
+      {"row": 6, "col": 3, "type": "ice"},
+      {"row": 3, "col": 2, "type": "coral"},
+      {"row": 4, "col": 6, "type": "coral"},
+      {"row": 5, "col": 4, "type": "coral"},
+      {"row": 1, "col": 6, "type": "chain"},
+      {"row": 4, "col": 1, "type": "chain"}
     ],
     "dropItems": []
   }

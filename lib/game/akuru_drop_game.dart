@@ -1,12 +1,10 @@
 import 'package:flame/game.dart';
-import 'package:flame/components.dart';
 import 'package:flutter/material.dart';
 import 'components/board.dart';
 import 'managers/score_manager.dart';
 import 'managers/word_bonus_manager.dart';
 import 'managers/power_up_manager.dart';
 import 'models/level_data.dart';
-import 'models/tile_type.dart';
 import '../config/constants.dart';
 import '../services/audio_service.dart';
 

@@ -1,5 +1,4 @@
 import 'dart:math';
-import 'dart:ui';
 import 'package:flame/components.dart';
 import 'package:flame/particles.dart' as flame_particles;
 import 'package:flutter/material.dart';

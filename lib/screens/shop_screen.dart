@@ -96,23 +96,22 @@ class _ShopScreenState extends State<ShopScreen> {
                           await storage.addCoins(kRewardedAdCoins);
                         },
                       );
-                      if (mounted) {
-                        if (result) {
-                          setState(() {});
-                          ScaffoldMessenger.of(context).showSnackBar(
-                            const SnackBar(
-                              content: Text('+$kRewardedAdCoins coins!'),
-                              backgroundColor: AppTheme.turquoise,
-                            ),
-                          );
-                        } else {
-                          ScaffoldMessenger.of(context).showSnackBar(
-                            const SnackBar(
-                              content: Text('Ad not available right now'),
-                              backgroundColor: AppTheme.coral,
-                            ),
-                          );
-                        }
+                      if (!context.mounted) return;
+                      if (result) {
+                        setState(() {});
+                        ScaffoldMessenger.of(context).showSnackBar(
+                          const SnackBar(
+                            content: Text('+$kRewardedAdCoins coins!'),
+                            backgroundColor: AppTheme.turquoise,
+                          ),
+                        );
+                      } else {
+                        ScaffoldMessenger.of(context).showSnackBar(
+                          const SnackBar(
+                            content: Text('Ad not available right now'),
+                            backgroundColor: AppTheme.coral,
+                          ),
+                        );
                       }
                     },
                   ),
@@ -176,6 +175,7 @@ class _ShopScreenState extends State<ShopScreen> {
                         audio.playSfx(SfxType.starEarn);
                         setState(() {});
                       } else {
+                        if (!context.mounted) return;
                         _showNotEnoughCoins(context);
                       }
                     },
@@ -191,6 +191,7 @@ class _ShopScreenState extends State<ShopScreen> {
                         audio.playSfx(SfxType.starEarn);
                         setState(() {});
                       } else {
+                        if (!context.mounted) return;
                         _showNotEnoughCoins(context);
                       }
                     },

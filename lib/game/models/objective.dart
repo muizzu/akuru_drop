@@ -92,7 +92,7 @@ class LevelObjective {
       case ObjectiveType.dropItems:
         return '$dropItemCount ތަކެތި ތިރިއަށް ވައްޓާލާ';
       case ObjectiveType.timed:
-        return '${timeLimit}ސ ތެރޭ $targetScore ޕޮއިންޓް';
+        return '$timeLimitސ ތެރޭ $targetScore ޕޮއިންޓް';
     }
   }
 }

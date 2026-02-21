@@ -66,14 +66,14 @@ class PowerUpButton extends StatelessWidget {
                 Icon(
                   Icons.monetization_on,
                   size: 10,
-                  color: isUsed ? Colors.white20 : AppTheme.coinColor,
+                  color: isUsed ? Colors.white24 : AppTheme.coinColor,
                 ),
                 const SizedBox(width: 2),
                 Text(
                   '$cost',
                   style: TextStyle(
                     fontSize: 10,
-                    color: isUsed ? Colors.white20 : AppTheme.coinColor,
+                    color: isUsed ? Colors.white24 : AppTheme.coinColor,
                   ),
                 ),
               ],

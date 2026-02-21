@@ -228,15 +228,14 @@ class _HomeScreenState extends State<HomeScreen> with TickerProviderStateMixin {
                       onTap: () async {
                         await storage.claimDailyReward();
                         audio.playSfx(SfxType.starEarn);
-                        if (mounted) {
-                          setState(() {});
-                          ScaffoldMessenger.of(context).showSnackBar(
+                        if (!context.mounted) return;
+                        setState(() {});
+                        ScaffoldMessenger.of(context).showSnackBar(
                             const SnackBar(
                               content: Text('Daily reward: +$kDailyLoginCoins coins!'),
                               backgroundColor: AppTheme.turquoise,
                             ),
-                          );
-                        }
+                        );
                       },
                       child: Container(
                         padding: const EdgeInsets.symmetric(

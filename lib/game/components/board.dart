@@ -267,25 +267,29 @@ class GameBoard extends PositionComponent with TapCallbacks, DragCallbacks {
 
   @override
   void onDragStart(DragStartEvent event) {
+    super.onDragStart(event);
     if (_state != BoardState.idle) return;
     if (_levelComplete || _levelFailed) return;
 
     final pos = _positionFromLocal(event.localPosition);
     if (pos == null) return;
-    _dragStart = event.localPosition.clone();
+    _dragStart = Vector2.zero();
     _selectTile(pos.row, pos.col);
   }
 
   @override
   void onDragEnd(DragEndEvent event) {
+    super.onDragEnd(event);
     _dragStart = null;
   }
 
   @override
   void onDragUpdate(DragUpdateEvent event) {
+    super.onDragUpdate(event);
     if (_state != BoardState.idle || _selectedRow == null || _dragStart == null) return;
 
-    final delta = event.localPosition - _dragStart!;
+    _dragStart!.add(event.localDelta);
+    final delta = _dragStart!;
     if (delta.length < kTileSize * 0.3) return;
 
     int dr = 0, dc = 0;
@@ -310,7 +314,7 @@ class GameBoard extends PositionComponent with TapCallbacks, DragCallbacks {
   void _selectTile(int row, int col) {
     // Deselect previous
     if (_selectedRow != null && _selectedCol != null) {
-      tileComponents[_selectedRow!]?[_selectedCol!]?.isSelected = false;
+      tileComponents[_selectedRow!][_selectedCol!]?.isSelected = false;
     }
 
     if (grid[row][col].isSwappable && grid[row][col].letter != null) {
@@ -325,7 +329,7 @@ class GameBoard extends PositionComponent with TapCallbacks, DragCallbacks {
 
   void _deselectAll() {
     if (_selectedRow != null && _selectedCol != null) {
-      tileComponents[_selectedRow!]?[_selectedCol!]?.isSelected = false;
+      tileComponents[_selectedRow!][_selectedCol!]?.isSelected = false;
     }
     _selectedRow = null;
     _selectedCol = null;
@@ -679,7 +683,7 @@ class GameBoard extends PositionComponent with TapCallbacks, DragCallbacks {
 
     // Animate falls
     for (final fall in result.falls) {
-      final tile = tileComponents[fall.fromRow]?[fall.fromCol];
+      final tile = tileComponents[fall.fromRow][fall.fromCol];
       if (tile != null) {
         tileComponents[fall.toRow][fall.toCol] = tile;
         tileComponents[fall.fromRow][fall.fromCol] = null;
@@ -861,9 +865,7 @@ class GameBoard extends PositionComponent with TapCallbacks, DragCallbacks {
 }
 
 class _FutureCompleter {
-  final _completerFuture = Future<void>.value();
   bool _completed = false;
-  late final void Function() _resolve;
 
   late final Future<void> future = Future<void>(() async {
     if (_completed) return;

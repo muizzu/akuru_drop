@@ -64,7 +64,7 @@ class _SettingsScreenState extends State<SettingsScreen> {
                         await audio.toggleSound();
                         setState(() {});
                       },
-                      activeColor: AppTheme.turquoise,
+                      activeTrackColor: AppTheme.turquoise,
                     ),
                   ),
 
@@ -78,7 +78,7 @@ class _SettingsScreenState extends State<SettingsScreen> {
                         await audio.toggleMusic();
                         setState(() {});
                       },
-                      activeColor: AppTheme.turquoise,
+                      activeTrackColor: AppTheme.turquoise,
                     ),
                   ),
 
@@ -117,7 +117,7 @@ class _SettingsScreenState extends State<SettingsScreen> {
                         await storage.setNotificationsOn(value);
                         setState(() {});
                       },
-                      activeColor: AppTheme.turquoise,
+                      activeTrackColor: AppTheme.turquoise,
                     ),
                   ),
 

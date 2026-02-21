@@ -1,5 +1,4 @@
 import '../managers/match_manager.dart';
-import '../../config/constants.dart';
 
 class ScoreManager {
   int _score = 0;

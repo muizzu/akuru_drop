@@ -1,5 +1,3 @@
-import '../game/models/tile_type.dart';
-
 class ThaanaHelpers {
   static const Map<String, String> uiTextEn = {
     'app_name': 'Akuru Drop',

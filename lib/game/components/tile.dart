@@ -2,13 +2,12 @@ import 'dart:math';
 import 'dart:ui' as ui;
 import 'package:flame/components.dart';
 import 'package:flame/effects.dart';
-import 'package:flame/events.dart';
 import 'package:flutter/material.dart';
 import '../models/tile_type.dart';
 import '../../config/constants.dart';
 import '../../config/theme.dart';
 
-class GameTile extends PositionComponent with HasGameRef {
+class GameTile extends PositionComponent with HasGameReference {
   TileState state;
   int row;
   int col;
@@ -20,8 +19,6 @@ class GameTile extends PositionComponent with HasGameRef {
 
   double _pulsePhase = 0;
   double _shimmerPhase = 0;
-
-  static final Random _random = Random();
 
   GameTile({
     required this.state,

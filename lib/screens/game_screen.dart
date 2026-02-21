@@ -212,7 +212,7 @@ class _GameScreenState extends State<GameScreen> {
             borderRadius: BorderRadius.circular(12),
           ),
           child: Text(
-            '${_score.withCommas}',
+            _score.withCommas,
             style: const TextStyle(
               color: Colors.white,
               fontWeight: FontWeight.bold,
